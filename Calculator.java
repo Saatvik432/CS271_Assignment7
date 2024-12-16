@@ -35,11 +35,11 @@ public class Calculator {
     }
     
     public static double subtract(double a, double b) {
-        if(b == 0) return 0;
         return a - b;
     }
 
     public static double divide(double a, double b) {
+        if(b == 0) return 0;
         return a / b;
     }
 
